@@ -1,0 +1,22 @@
+* {
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  display: float;
+  width: 100%;
+  height: 100px;
+  background: pink;
+  clear: both;
+  border: 1px solid gray;
+}
+
+section {
+  display: float;
+  float: left;
+  width: 33.3333%;
+  border: 1px solid gray;
+  height: 300px;
+  background: lightblue;
+}

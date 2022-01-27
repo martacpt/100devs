@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+  background-color: rgb(247, 227, 230);
+}
+
+header,
+footer {
+  height: 150px;
+  width: 100%;
+  clear: both;
+  border: 1px solid lightgray;
+}
+
+nav {
+  float: left;
+  height: 500px;
+  width: 20%;
+  border: 1px solid lightgray;
+}
+
+section {
+  float: left;
+  height: 500px;
+  border: 1px solid lightgray;
+}
+
+section#main {
+  width: 40%;
+}
+
+section#main2 {
+  width: 20%;
+}
+
+aside {
+  float: left;
+  height: 500px;
+  border: 1px solid lightgray;
+  width: 20%;
+}
